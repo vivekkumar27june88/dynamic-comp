@@ -1,6 +1,7 @@
 .menu-bar {
-  padding: 2rem 0;
+  padding: 1rem 0;
   display: grid;
+  grid-gap: 2rem;
   grid-template-columns: repeat(auto-fill, minmax(300px, auto));
   place-content: center;
   width: 100vw;
