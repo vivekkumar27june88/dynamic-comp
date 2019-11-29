@@ -1,0 +1,22 @@
+.menu-bar {
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+  place-content: center;
+  width: 100vw;
+  border-bottom: 2px solid tomato;
+}
+
+.menu-item {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1.25rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  justify-self: center;
+}
+
+.active {
+  font-weight: 500;
+}
