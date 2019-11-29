@@ -6,6 +6,7 @@ import { ViewContainerRefCompComponent } from "./view-container-ref-comp/view-co
 import { ChildComponent } from "./view-content-demo/child/child.component";
 import { ParentComponent } from "./view-content-demo/parent/parent.component";
 import { ViewContentQueryComponent } from "./view-content-query/view-content-query.component";
+import { NgTemplateOutletContextComponent } from './ng-template-outlet-context/ng-template-outlet-context.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ViewContentQueryComponent } from "./view-content-query/view-content-que
     ViewContentQueryComponent,
     ChildComponent,
     ParentComponent,
-    ViewContainerRefCompComponent
+    ViewContainerRefCompComponent,
+    NgTemplateOutletContextComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
